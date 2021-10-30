@@ -1,0 +1,10 @@
+.quantity-input__screen{
+    width: 50px;
+    text-align: center;
+    border:none;
+    outline: none;
+}
+.quantity-input__modifier{
+    border:1px solid #bdbdbd;
+
+}

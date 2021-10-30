@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+body{
+  background-color: #215674 !important;
+}
+.heading{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+
+}
+.user-list{
+  margin-top: 30px !important; 
+  height: 500px;
+  background: white;
+  border-radius: 2rem;
+  /* box-shadow: 0px 0px 247px 1px rgb(189 189 189 / 75%) inset;
+-webkit-box-shadow: 0px 0px 247px 1px rgb(189 189 189 / 75%) inset;
+-moz-box-shadow: 0px 0px 247px 1px rgb(189 189 189 / 75%) inset; */
+overflow-y: auto;
+
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #215674 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #215674;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+  tr{
+    height: 50px;
+  }
+  .add-btn{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+  }
